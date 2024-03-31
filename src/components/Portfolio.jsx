@@ -1,7 +1,6 @@
 import { Container } from '@rneui/material';
 import Grid from '@mui/material/Grid2';
 import Card from '@mui/material/Card';
-import { Paper, Box } from '@mui/material';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -23,7 +22,7 @@ const ProjectData = [
         description: "This project allows you to generate a random password based on the criteria you select. This project is an exercise in using JavaScript to create a random password generator.",
         picture: `/public/images/password-generator.png`,
         githubUrl: "https://github.com/Rojas259/Password-Generator.git",
-        liveUrl: "",
+        liveUrl: "https://rojas259.github.io/Password-Generator/",
     },
     {
         id: "Note-Taker",
@@ -31,7 +30,7 @@ const ProjectData = [
         description: "This project allows you to write, save, and delete notes.",
         picture: `/public/assets/note-taker.png`,
         githubUrl: "https://github.com/Rojas259/Note-Taker.git",
-        liveUrl: "",
+        liveUrl: "https://note-taker-8-c2b59462ef5a.herokuapp.com",
     },
     {
         id: "Readme-Generator",
@@ -39,7 +38,6 @@ const ProjectData = [
         description: "This project allows you to generate a readme file for your project.",
         picture: `/public/images/readme-generator.png`,
         githubUrl: "https://github.com/Rojas259/Professional-README-Generator.git",
-        liveUrl: "",
     },
     {
         id: "WorkDay-Schedule",
@@ -47,7 +45,7 @@ const ProjectData = [
         description: "This project allows you to record your schedule for your work day, it saves the events to your localstorage, so you can leave and come back. This project is an exercise in using the Third Party API DayJS, and implementing jQuery and Bootstrap",
         picture: `/public/images/work-day-schedule.png`,
         githubUrl: "https://github.com/Rojas259/Daily-Work-Schedular.git",
-        liveUrl: "",
+        liveUrl: "https://rojas259.github.io/Daily-Work-Schedular/",
     },
     
 ]
