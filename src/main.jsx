@@ -5,7 +5,7 @@ import{
     createBrowerRouter,
     RouterProvider,
 } from 'react-router-dom';
-import { ThemeProvider } from '@rneui/themed';
+import { ThemeProvider } from '@mui/themed';
 
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/300.css'; 

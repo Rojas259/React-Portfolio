@@ -1,7 +1,7 @@
-import Box from '@rneui/themed/Box'
-import Paper from '@rneui/themed/Paper'
-import Typography from '@rneui/themed/Typography'
-import Grid from '@rneui/themed/Grid'
+import Box from '@mui/themed/Box'
+import Paper from '@mui/themed/Paper'
+import Typography from '@mui/themed/Typography'
+import Grid from '@mui/themed/Grid'
 
 export default function AboutMe() {
     return (

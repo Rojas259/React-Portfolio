@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { TextField, container} from "@rneui/material";
+import { TextField, container} from "@mui/material";
 
-import { Paper } from "@rneui/material";
-import Typography from "@rneui/materail/Typography";
-import Grid from "@rneui/material/Unstable_Grid2";
-import Button from "@rneui/material/Button";
-import SendIcon from "@rneui/material-icons/Send";
-import {createTheme, ThemeProvider} from "@rneui/material";
+import { Paper } from "@mui/material";
+import Typography from "@mui/materail/Typography";
+import Grid from "@mui/material/Unstable_Grid2";
+import Button from "@mui/material/Button";
+import SendIcon from "@mui/material-icons/Send";
+import {createTheme, ThemeProvider} from "@mui/material";
 
 
 export default function Contacts() {

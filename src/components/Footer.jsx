@@ -1,8 +1,8 @@
-import { Container } from '@rneui/material'
+import { Container } from '@mui/material'
 import { Link } from 'react-router-dom'
 
-import Grid from '@rneui/material/Grid2'
-import Box from '@rneui/material/Box'
+import Grid from '@mui/material/Grid2'
+import Box from '@mui/material/Box'
 
 
 function Footer() {

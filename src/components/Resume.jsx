@@ -1,7 +1,7 @@
-import { Paper } from '@rneui/material';
-import { Box } from '@rneui/material';
-import { Button } from '@rneui/material';
-import Typography from '@rneui/material/Typography';
+import { Paper } from '@mui/material';
+import { Box } from '@mui/material';
+import { Button } from '@mui/material';
+import Typography from '@mui/material/Typography';
 
 export default function Resume() {
     return (
