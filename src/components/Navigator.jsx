@@ -1,16 +1,16 @@
 import * as React from 'react';
-import AppBar from '@rneui/material/AppBar';
-import Box from '@rneui/material/Box';
-import Toolbar from '@rneui/material/Toolbar';
-import Typography from '@rneui/material/Typography';
-import Button from '@rneui/material/Button';
+import AppBar from '@mui/material/AppBar';
+import Box from '@mui/material/Box';
+import Toolbar from '@mui/material/Toolbar';
+import Typography from '@mui/material/Typography';
+import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
 //images
-import Container from "@rneui/material/Container";
-import Menu from "@rneui/material-icons/Menu";
-import IconButton from "@rneui/material/IconButton";
-import MenuItem from "@rneui/material/MenuItem";
-import { useTheme } from "@rneui/material/styles";
+import Container from "@mui/material/Container";
+import Menu from "@mui/material-icons/Menu";
+import IconButton from "@mui/material/IconButton";
+import MenuItem from "@mui/material/MenuItem";
+import { useTheme } from "@mui/material/styles";
 
 const pages = [ 'About', 'Protfolio', 'Contact', 'Resume' ];
 const settings = [ 'Profile', 'Account', 'Dashboard', 'Logout' ];

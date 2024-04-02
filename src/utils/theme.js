@@ -1,5 +1,5 @@
 
-import {createTheme} from '@rneui/themed';
+import {createTheme} from '@mui/themed';
 
 export const Theme = createTheme({
  lightColors: {
