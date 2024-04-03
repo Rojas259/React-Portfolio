@@ -13,12 +13,12 @@ import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
 import '@fontsource/roboto/900.css';
 
-import Root from '.routes/root';
-import ErrorPages from './error-pages';
-import AboutMe from './about-me';
-import Contact from './contact';
-import Resume from './resume';
-import Portfolio from './portfolio';
+import Root from './root.jsx';
+import ErrorPages from './error-pages.jsx';
+import AboutMe from './components/AboutMe.jsx';
+import Contact from './components/Contacts.jsx';
+import Resume from './components/Resume.jsx';
+import Portfolio from './components/Portfolio.jsx';
 
 import './index.css';
 import {theme} from './utils/theme.js'
