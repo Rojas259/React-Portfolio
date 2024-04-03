@@ -1,7 +1,7 @@
-import Box from '@mui/themed/Box'
-import Paper from '@mui/themed/Paper'
-import Typography from '@mui/themed/Typography'
-import Grid from '@mui/themed/Grid'
+import Box from '@mui/material/Box'
+import Paper from '@mui/material/Paper'
+import Typography from '@mui/material/Typography'
+import Grid from '@mui/material/Grid'
 
 export default function AboutMe() {
     return (
