@@ -1,5 +1,5 @@
 
-import {createTheme} from '@mui/themed';
+import {createTheme} from '@mui/material/styles';
 
 export const Theme = createTheme({
  lightColors: {
