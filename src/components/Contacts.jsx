@@ -5,7 +5,7 @@ import { Paper } from "@mui/material";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Unstable_Grid2";
 import Button from "@mui/material/Button";
-import SendIcon from "@mui/material-icons/Send";
+import SendIcon from "@mui/icons-material/SendIcon";
 import {createTheme, ThemeProvider} from "@mui/material";
 
 
