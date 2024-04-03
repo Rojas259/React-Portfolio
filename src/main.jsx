@@ -11,9 +11,9 @@ import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/300.css'; 
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-import '@fontsource/roboto/900.css';
 
-import Root from './root.jsx';
+
+import Root from './routes/root.jsx';
 import ErrorPages from './error-pages.jsx';
 import AboutMe from './components/AboutMe.jsx';
 import Contact from './components/Contacts.jsx';
@@ -46,10 +46,6 @@ const router = createBrowerRouter([
                 element: <Resume />,
             },
             {
-                path: '/portfolio',
-                element: <Portfolio />,
-            },
-             {
                 path: '/portfolio',
                 element: <Portfolio />,
             },
