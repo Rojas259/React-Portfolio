@@ -1,8 +1,8 @@
-import { Container } from '@mui/material'
-import { Link } from 'react-router-dom'
+import { Container } from "@mui/material"
+import { Link } from "react-router-dom"
 
-import Grid from '@mui/material/Grid2'
-import Box from '@mui/material/Box'
+import Grid from '@mui/material/Unstable_Grid2';
+import Box from '@mui/material/Box';
 
 
 function Footer() {

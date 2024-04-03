@@ -5,7 +5,7 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom';
-//images
+
 import Container from "@mui/material/Container";
 import Menu from "@mui/material-icons/Menu";
 import IconButton from "@mui/material/IconButton";
@@ -27,14 +27,6 @@ function Navigator() {
 
     const handleClose = () => {
         setAnchorEl(null);
-    };
-
-    const handleClick2 = (event) => {
-        setAnchorEl2(event.currentTarget);
-    };
-
-    const handleClose2 = () => {
-        setAnchorEl2(null);
     };
 
     return (
@@ -87,3 +79,4 @@ function Navigator() {
     );
 }
 
+export default Navigator;
