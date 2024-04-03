@@ -2,7 +2,7 @@ import { useState } from "react";
 import { TextField, container} from "@mui/material";
 
 import { Paper } from "@mui/material";
-import Typography from "@mui/materail/Typography";
+import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Unstable_Grid2";
 import Button from "@mui/material/Button";
 import SendIcon from "@mui/material-icons/Send";
@@ -57,7 +57,7 @@ export default function Contacts() {
                     </div>
                     <form onSubmit={handleSubmit}>
                     <Grid >
-                        <Grid >
+                        <Grid Container>
                             <TextField
                                 required
                                 id="name outlined-basic"
