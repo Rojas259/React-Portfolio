@@ -1,4 +1,4 @@
-import Naviagtion from './components/Navigation';
+import Naviagtion from './Navigator.jsx';
 
 export default function Header() {
     return (
