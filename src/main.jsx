@@ -1,11 +1,11 @@
-// Step 1: Import React and ReactDOM
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import{
     createBrowerRouter,
     RouterProvider,
 } from 'react-router-dom';
-import { ThemeProvider } from '@mui/themed';
+import { ThemeProvider } from '@mui/material/styles';
 
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/300.css'; 
@@ -21,7 +21,7 @@ import Resume from './resume';
 import Portfolio from './portfolio';
 
 import './index.css';
-import './utils/theme.js'
+import {theme} from './utils/theme.js'
 
 const router = createBrowerRouter([
     {
@@ -57,8 +57,8 @@ const router = createBrowerRouter([
     },
 ]);
 
-// Step 3: Use ReactDOM to render your component
-ReactDom.createRoot(document.getElementById('root')).render(
+
+ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
         <ThemeProvider theme={theme}>
             <RouterProvider router={router} />
