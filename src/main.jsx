@@ -20,7 +20,7 @@ import Contact from './components/Contacts.jsx';
 import Resume from './components/Resume.jsx';
 import Portfolio from './components/Portfolio.jsx';
 
-import './index.css';
+import '../src/index.css';
 import {theme} from './utils/theme.js'
 
 const router = createBrowerRouter([
