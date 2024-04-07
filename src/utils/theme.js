@@ -18,7 +18,7 @@ export const theme = createTheme({
             '"Segoe UI"',
             'Roboto',
             '"Helvetica Neue"',
-            'Arial',
+            'New York Times',
             'sans-serif',
             '"Apple Color Emoji"',
             '"Segoe UI Emoji"',
