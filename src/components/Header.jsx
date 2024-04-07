@@ -1,9 +1,7 @@
-import Navigation from '../components/Navigator';
+import Naviagtion from '../components/Navigator';
 
 export default function Header() {
     return (
-        <>
-            <Navigation />
-        </>
-    )
+        <Naviagtion />
+    );
 }
