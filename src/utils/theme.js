@@ -3,8 +3,8 @@ export const theme = createTheme({
     palette: {
         mode: 'light',
         primary: {
-            main: "#5C715B",
-            dark: "#5C715B"
+            main: "#590104",
+            dark: "#590104"
         },
         secondary: {
             main: "#E09891",
