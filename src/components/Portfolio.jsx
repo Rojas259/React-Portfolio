@@ -75,6 +75,8 @@ export default function ProjectCard() {
                                             {project.description}
                                         </Typography>
                                     </CardContent>
+                                    {/* </Link> */}
+                                    {/* </CardActionArea> */}
                                     <CardActions>
                                         <Button size="small" href={`https://${project.githubUrl}`} target="_blank">GitHub</Button>
                                         <Button size="small" href={`https://${project.liveUrl}`} target="_blank">Live Application</Button>
