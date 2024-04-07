@@ -1,19 +1,19 @@
-import Box from '@mui/material/Box'
-import Paper from '@mui/material/Paper'
-import Typography from '@mui/material/Typography'
-import Grid from '@mui/material/Grid'
+import Box from '@mui/material/Box';
+import Paper from '@mui/material/Paper';
+import Grid from '@mui/material/Unstable_Grid2';
+import Typography from '@mui/material/Typography';
 
 export default function AboutMe() {
     return (
-        <Box >
-            <Grid >
-                <Grid >
+        <Box sx={{ flexGrow: 1 }}>
+            <Grid container spacing={2}>
+                <Grid xs={12} md={6}>
                     <Paper>
                         <Box sx={{ p: 2 }}>
 
                             <Typography variant="h3">About Me</Typography>
 
-                            <Typography>
+                            <Typography variant="h6">Hello, I'm Miguel Rojas
                                 Welcome to my Web Development Portfolio!!!! I am currently enrolled in the ASU Coding
                                 Bootcamp.
                             </Typography><br></br>
@@ -46,17 +46,18 @@ export default function AboutMe() {
                                 I would play Video games in my free time to relax after a long week of work and school, if was not going out my friends to
                                 play basketball or football.                                
                             </Typography>
+                        
                         </Box>
                     </Paper>
                 </Grid>
                 <Grid xs={12} md={6}>
                     <Box
                         sx={{
-                            width: 200,
-                            height: 200,
+                            width: 400,
+                            height: 400,
                             borderRadius: 1,
-                            backgroundImage: ``,
-                            backgroundSize: '',
+                            backgroundImage: `url()`,
+                            backgroundSize: 'cover',
                         }}
                     >
 

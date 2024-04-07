@@ -1,7 +1,9 @@
-import { Paper } from '@mui/material';
-import { Box } from '@mui/material';
-import { Button } from '@mui/material';
-import Typography from '@mui/material/Typography';
+import { Paper } from "@mui/material"
+import { Box } from "@mui/material"
+// import { Link } from "react-router-dom"
+import { Button } from "@mui/material"
+import Typography from '@mui/material/Typography'
+
 
 export default function Resume() {
     return (
@@ -16,7 +18,7 @@ export default function Resume() {
                 </Box>
 
                 <Box sx={{ p: 2 }}>
-                <a href="" download>
+                <a href="/projects/BradburyWebResume.pdf" download>
                     <Button variant="contained" color="primary">
                         Download Resume PDF
                     </Button>
