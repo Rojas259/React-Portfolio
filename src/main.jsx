@@ -23,7 +23,7 @@ import {theme} from "./utils/theme"
 
 // Main Routes
 import Root from './routes/root'
-import ErrorPage from "./error-page";
+import ErrorPage from "./error-pages";
 import AboutMe from "./components/AboutMe"
 import Resume from "./components/Resume"
 import Contact from "./components/Contact"
