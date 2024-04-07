@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { TextField, container} from "@mui/material";
+import { useState } from 'react';
+import { TextField, Container } from "@mui/material"
 
-import Grid from '@mui/material/Unstable_Grid2'; 
+import Grid from '@mui/material/Unstable_Grid2'; // Grid version 2
 import { Paper } from "@mui/material";
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography'
@@ -9,10 +9,11 @@ import SendIcon from '@mui/icons-material/Send';
 import { createTheme, ThemeProvider } from '@mui/material';
 
 
-export default function Contacts() {
-    const [name, setName] = useState("");
-    const [email, setEmail] = useState("");
-    const [message, setMessage] = useState("");
+// This sets the current state of all the forms and the possible errors. 
+export default function Contact() {
+    const [name, setName] = useState('');
+    const [email, setEmail] = useState('');
+    const [message, setMessage] = useState('');
     const [nameError, setNameError] = useState(false);
     const [emailError, setEmailError] = useState(false);
 
@@ -56,8 +57,8 @@ export default function Contacts() {
                         <Typography variant="h3" >Contact Me</Typography>
                     </div>
                     <form onSubmit={handleSubmit}>
-                    <Grid >
-                        <Grid Container>
+                    <Grid container spacing={2}>
+                        <Grid xs={12} sm={5}>
                             <TextField
                                 required
                                 id="name outlined-basic"
@@ -66,10 +67,11 @@ export default function Contacts() {
                                 value={name}
                                 onChange={(e) => setName(e.target.value)}
                                 error={nameError}
+                                // if the nameError is true, it displays, if not ''
                                 helperText={nameError ? 'Name is required' : ''}
                             />
                         </Grid>
-                        <Grid>
+                        <Grid xs={12} sm={6}>
                             <TextField
                                 required
                                 id="mail outlined-basic"
@@ -87,7 +89,7 @@ export default function Contacts() {
                         <TextField
                             fullWidth
                             label="Message"
-                            id="message outlined-multiline-flexible"
+                            id="message outlined-multiline-flexible "
                             multiline
                             maxRows={4}
                             margin="normal"
@@ -107,3 +109,15 @@ export default function Contacts() {
         </div>
     )
 }
+createTheme({
+    palette: {
+        primary: {
+            main: '#f44336',
+        },
+        secondary: {
+            main: '#3f51b5',
+        },
+    },
+});
+
+ThemeProvider({ theme: createTheme() });
