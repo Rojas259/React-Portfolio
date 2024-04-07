@@ -133,7 +133,7 @@ function Navigation() {
 
                     <Box sx={{ flexGrow: 0 }}>
             
-                        <Avatar alt="Miguel Rojas" src="/images/Profile.png"/>
+                        <Avatar alt="Miguel Rojas" src="../Public/images/profile.png"/>
 
                         <Menu
                             sx={{ mt: '45px' }}
