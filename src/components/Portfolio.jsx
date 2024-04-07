@@ -16,7 +16,7 @@ const ProjectData = [
         id: "Cocktail-Compass",
         title: "Cocktail Compass",
         description: "Hmtl, CSS, and two APIs are used to create a website that allows you to search for cocktails by name or ingredient. This project is an exercise in using APIs and dynamically creating elements on our webpage using JavaScript.",
-        picture: `../image/WelcomeToTheCocktailCompass.png`,
+        picture: `/projects/WelcomeToTheCocktailCompass.png`,
         githubUrl: "github.com/sfmacdonald/Cocktail-Compass.git",
         liveUrl: "sfmacdonald.github.io/Cocktail-Compass/",
     },
@@ -24,7 +24,7 @@ const ProjectData = [
         id: "Password-Generator",
         title: "Password Generator",
         description: "This project allows you to generate a random password based on the criteria you select. This project is an exercise in using JavaScript to create a random password generator.",
-        picture: '/image/Password-Generator.png',
+        picture: '/projects/Password-Generator.png',
         githubUrl: "github.com/Rojas259/Password-Generator.git",
         liveUrl: "rojas259.github.io/Password-Generator/",
     },
@@ -32,7 +32,7 @@ const ProjectData = [
         id: "Note-Taker",
         title: "Note Taker",
         description: "This project allows you to write, save, and delete notes.",
-        picture: '/image/Note-Taker.png',
+        picture: '/projects/Note-Taker.png',
         githubUrl: "github.com/Rojas259/Note-Taker.git",
         liveUrl: "note-taker-8-c2b59462ef5a.herokuapp.com",
     },
@@ -40,14 +40,14 @@ const ProjectData = [
         id: "Readme-Generator",
         title: "Readme Generator",
         description: "This project allows you to generate a readme file for your project.",
-        picture: '/image/README-Generator.png',
+        picture: 'projects/README-Generator.png',
         githubUrl: "github.com/Rojas259/Professional-README-Generator.git",
     },
     {
         id: "WorkDay-Schedule",
         title: "Work Day Schedule",
         description: "This project allows you to record your schedule for your work day, it saves the events to your localstorage, so you can leave and come back. This project is an exercise in using the Third Party API DayJS, and implementing jQuery and Bootstrap",
-        picture: '/image/WorkDaySchedule.png',
+        picture: 'projects/WorkDaySchedule.png',
         githubUrl: "github.com/Rojas259/Daily-Work-Schedular.git",
         liveUrl: "rojas259.github.io/Daily-Work-Schedular/",
     },
@@ -60,19 +60,19 @@ export default function ProjectCard() {
                 <Typography variant="h3">Portfolio</Typography>
                 <Container maxWidth="md">
                     <Grid container rowSpacing={1} columnSpacing={2}>
-                        {ProjectData.map((image) => (
-                            <Grid key={image.id} xs={12} md={6}>
+                        {ProjectData.map((project) => (
+                            <Grid key={project.id} xs={12} md={6}>
 
                                 <Card sx={{ maxWidth: 345 }}>
 
                                     <CardMedia
                                         sx={{ height: 140 }}
-                                        image={image.picture}
-                                        title={image.title}
+                                        image={project.picture}
+                                        title={project.title}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            {picture.title}
+                                            {project.title}
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             {project.description}
