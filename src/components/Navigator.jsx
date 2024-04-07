@@ -142,7 +142,7 @@ function Navigation() {
                         {/* <IconButton 
                             onClick={handleOpenUserMenu} 
                             sx={{ p: 0 }}> */}
-                        <Avatar alt="Jesse Bradbury" src="/images/avatar.png" />
+                        <Avatar alt="Miguel Rojas" src="" />
                         {/* </IconButton> */}
                         {/* </Tooltip> */}
                         <Menu
