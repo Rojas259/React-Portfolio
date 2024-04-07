@@ -9,7 +9,6 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-// import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import { useTheme } from '@mui/material';
 
@@ -27,9 +26,7 @@ function Navigation() {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-    // const handleOpenUserMenu = (event) => {
-    //     setAnchorElUser(event.currentTarget);
-    // };
+
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
@@ -48,22 +45,21 @@ function Navigation() {
                         variant="h6"
                         noWrap
                         component="a"
-                        // href="#app-bar-with-responsive-menu"
+                      
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
                             fontFamily: 'roboto',
                             fontWeight: 700,
                             letterSpacing: '.1rem',
-                            color: 'white',
+                            color: 'Black',
                             textDecoration: 'none',
                         }}
                     >
-                        Jesse Bradbury
+                        Miguel A Rojas
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-                        {/* This is the accordian that has the menu items when the display goes to a smaller size. */}
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -103,12 +99,11 @@ function Navigation() {
                             ))}
                         </Menu>
                     </Box>
-                    {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
+                    
                     <Typography
                         variant="h5"
                         noWrap
                         component="a"
-                        // href="#app-bar-with-responsive-menu"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
@@ -116,11 +111,11 @@ function Navigation() {
                             fontFamily: 'roboto',
                             fontWeight: 700,
                             letterSpacing: '.1rem',
-                            color: 'white',
+                            color: 'black',
                             textDecoration: 'none',
                         }}
                     >
-                        Jesse Bradbury
+                        Miguel A Rojas
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
@@ -137,14 +132,9 @@ function Navigation() {
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
-                        {/* Future feature with settings for light mode and dark mode and other website settings. */}
-                        {/* <Tooltip title="Open settings"> */}
-                        {/* <IconButton 
-                            onClick={handleOpenUserMenu} 
-                            sx={{ p: 0 }}> */}
+            
                         <Avatar alt="Miguel Rojas" src="" />
-                        {/* </IconButton> */}
-                        {/* </Tooltip> */}
+
                         <Menu
                             sx={{ mt: '45px' }}
                             id="menu-appbar"
