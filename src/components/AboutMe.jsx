@@ -13,7 +13,7 @@ export default function AboutMe() {
 
                             <Typography variant="h3">About Me</Typography>
 
-                            <Typography variant="h6">Hello, I'm Miguel Rojas
+                            <Typography>
                                 Welcome to my Web Development Portfolio!!!! I am currently enrolled in the ASU Coding
                                 Bootcamp.
                             </Typography><br></br>
@@ -46,7 +46,6 @@ export default function AboutMe() {
                                 I would play Video games in my free time to relax after a long week of work and school, if was not going out my friends to
                                 play basketball or football.                                
                             </Typography>
-                        
                         </Box>
                     </Paper>
                 </Grid>
