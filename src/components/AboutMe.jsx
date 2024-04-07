@@ -56,7 +56,7 @@ export default function AboutMe() {
                             width: 400,
                             height: 400,
                             borderRadius: 1,
-                            backgroundImage: `url(\Public\image\Profile.png)`,
+                            backgroundImage: `url(../image/Profile.png)`,
                             backgroundSize: 'cover',
                         }}
                     >
