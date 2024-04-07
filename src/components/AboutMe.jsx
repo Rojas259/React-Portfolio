@@ -56,7 +56,7 @@ export default function AboutMe() {
                             width: 400,
                             height: 400,
                             borderRadius: 1,
-                            backgroundImage: `url(Homework\React-Portfolio\Public\image\Profile.png)`,
+                            backgroundImage: `url(\Public\image\Profile.png)`,
                             backgroundSize: 'cover',
                         }}
                     >
