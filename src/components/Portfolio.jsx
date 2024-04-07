@@ -1,10 +1,7 @@
 import { Container } from '@mui/material';
 import Grid from '@mui/material/Unstable_Grid2';
-// import { Item } from '@mui/material';
 import Card from '@mui/material/Card';
 import { Paper, Box } from "@mui/material";
-// import { CardActionArea } from '@mui/material';
-// import { Link } from 'react-router-dom';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
@@ -16,7 +13,7 @@ const ProjectData = [
         id: "Cocktail-Compass",
         title: "Cocktail Compass",
         description: "Hmtl, CSS, and two APIs are used to create a website that allows you to search for cocktails by name or ingredient. This project is an exercise in using APIs and dynamically creating elements on our webpage using JavaScript.",
-        picture: `../Public/projects/WelcomeToTheCocktailCompass.png`,
+        picture: `../Public/projects/WelcomeToTheCoctailCampass.png`,
         githubUrl: "github.com/sfmacdonald/Cocktail-Compass.git",
         liveUrl: "sfmacdonald.github.io/Cocktail-Compass/",
     },
@@ -78,7 +75,8 @@ export default function ProjectCard() {
                                             {project.description}
                                         </Typography>
                                     </CardContent>
-
+                                    {/* </Link> */}
+                                    {/* </CardActionArea> */}
                                     <CardActions>
                                         <Button size="small" href={`https://${project.githubUrl}`} target="_blank">GitHub</Button>
                                         <Button size="small" href={`https://${project.liveUrl}`} target="_blank">Live Application</Button>
