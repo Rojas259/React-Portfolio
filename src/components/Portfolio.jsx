@@ -47,7 +47,7 @@ const ProjectData = [
         id: "WorkDay-Schedule",
         title: "Work Day Schedule",
         description: "This project allows you to record your schedule for your work day, it saves the events to your localstorage, so you can leave and come back. This project is an exercise in using the Third Party API DayJS, and implementing jQuery and Bootstrap",
-        picture: `/image/Work-Day-Schedule.png`,
+        picture: `\React-Portfolio\Public\image\WokdaySchedule.png`,
         githubUrl: "github.com/Rojas259/Daily-Work-Schedular.git",
         liveUrl: "rojas259.github.io/Daily-Work-Schedular/",
     },
