@@ -18,7 +18,7 @@ export default function Resume() {
                 </Box>
 
                 <Box sx={{ p: 2 }}>
-                <a href="" download>
+                <a href="/projects/" download>
                     <Button variant="contained" color="primary">
                         Download Resume PDF
                     </Button>
