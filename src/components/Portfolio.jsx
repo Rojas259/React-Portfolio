@@ -61,7 +61,10 @@ export default function ProjectCard() {
                             <Grid key={project.id} xs={12} md={6}>
 
                                 <Card sx={{ maxWidth: 345 }}>
+                                    {/* Future functionality for adding a link to a project page with more details */}
 
+                                    {/* <CardActionArea>
+                                    <Link to={`/portfolio/${project.id}`} style={{ textDecoration: 'none' }}> */}
                                     <CardMedia
                                         sx={{ height: 140 }}
                                         image={project.picture}
