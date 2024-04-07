@@ -52,7 +52,7 @@ function Navigation() {
                             fontFamily: 'roboto',
                             fontWeight: 700,
                             letterSpacing: '.1rem',
-                            color: 'Black',
+                            color: 'white',
                             textDecoration: 'none',
                         }}
                     >
@@ -133,7 +133,7 @@ function Navigation() {
 
                     <Box sx={{ flexGrow: 0 }}>
             
-                        <Avatar alt="Miguel Rojas" src="" />
+                        <Avatar alt="Miguel Rojas" src="../Public/images/Profile.png" />
 
                         <Menu
                             sx={{ mt: '45px' }}
