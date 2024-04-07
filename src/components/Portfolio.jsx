@@ -32,7 +32,7 @@ const ProjectData = [
         id: "Note-Taker",
         title: "Note Taker",
         description: "This project allows you to write, save, and delete notes.",
-        picture: '../image/Note-Taker.png',
+        picture: '/image/Note-Taker.png',
         githubUrl: "github.com/Rojas259/Note-Taker.git",
         liveUrl: "note-taker-8-c2b59462ef5a.herokuapp.com",
     },
@@ -40,7 +40,7 @@ const ProjectData = [
         id: "Readme-Generator",
         title: "Readme Generator",
         description: "This project allows you to generate a readme file for your project.",
-        picture: '../image/README-Generator.png',
+        picture: '/image/README-Generator.png',
         githubUrl: "github.com/Rojas259/Professional-README-Generator.git",
     },
     {
@@ -60,19 +60,19 @@ export default function ProjectCard() {
                 <Typography variant="h3">Portfolio</Typography>
                 <Container maxWidth="md">
                     <Grid container rowSpacing={1} columnSpacing={2}>
-                        {ProjectData.map((project) => (
-                            <Grid key={project.id} xs={12} md={6}>
+                        {ProjectData.map((image) => (
+                            <Grid key={image.id} xs={12} md={6}>
 
                                 <Card sx={{ maxWidth: 345 }}>
 
                                     <CardMedia
                                         sx={{ height: 140 }}
-                                        image={project.picture}
-                                        title={project.title}
+                                        image={image.picture}
+                                        title={image.title}
                                     />
                                     <CardContent>
                                         <Typography gutterBottom variant="h5" component="div">
-                                            {project.title}
+                                            {picture.title}
                                         </Typography>
                                         <Typography variant="body2" color="text.secondary">
                                             {project.description}
