@@ -14,15 +14,14 @@ export default function AboutMe() {
                             <Typography variant="h3">About Me</Typography>
 
                             <Typography>
-                                Welcome to my Web Development Portfolio!!!! I am currently enrolled in the ASU Coding
-                                Bootcamp.
+                                Welcome to my Web Development Portfolio!!!! 
                             </Typography><br></br>
                             <Typography>
                                 I am experiences training other people in hands on work for factory workplace and managing inventory for
                                 product through remote servers to be log in location updates and E-Mail others to order items for the floor.
                                 I have also trained others on setting up pumps for pods on the floor as well as any maintenance on them as well. 
                                 I was trained in use on the Swing-Reach and Dock Stocker. I also trained other on forklifts as well. I've had also 
-                                helped make SOP's(Standard Operating Procedures) to the Filling Department to be able to have on file to in documents 
+                                helped make SOP's,Standard Operating Procedures, to the Filling Department to be able to have on file to in documents 
                                 for training and safety updates for processing. I take part in safety meetings to represent my shift and department
                                 to raise concerns for things that need to be repaired or look at for safety reasons. I trained in medical aid if someone
                                 was injured on the floor.
