@@ -43,7 +43,8 @@ const ProjectData = [
         liveUrl: "rojas259.github.io/Daily-Work-Schedular/",
     },
     
-]
+];
+
 export default function ProjectCard() {
     return (
         <Paper>
