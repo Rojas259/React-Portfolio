@@ -26,7 +26,9 @@ function Navigation() {
     const handleOpenNavMenu = (event) => {
         setAnchorElNav(event.currentTarget);
     };
-
+    // const handleOpenUserMenu = (event) => {
+    //     setAnchorElUser(event.currentTarget);
+    // };
 
     const handleCloseNavMenu = () => {
         setAnchorElNav(null);
@@ -45,7 +47,7 @@ function Navigation() {
                         variant="h6"
                         noWrap
                         component="a"
-                      
+                        // href="#app-bar-with-responsive-menu"
                         sx={{
                             mr: 2,
                             display: { xs: 'none', md: 'flex' },
@@ -56,10 +58,11 @@ function Navigation() {
                             textDecoration: 'none',
                         }}
                     >
-                        Miguel A Rojas
+                        Miguel Rojas
                     </Typography>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+                        {/* This is the accordian that has the menu items when the display goes to a smaller size. */}
                         <IconButton
                             size="large"
                             aria-label="account of current user"
@@ -99,11 +102,12 @@ function Navigation() {
                             ))}
                         </Menu>
                     </Box>
-                    
+                    {/* <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
                     <Typography
                         variant="h5"
                         noWrap
                         component="a"
+                        // href="#app-bar-with-responsive-menu"
                         sx={{
                             mr: 2,
                             display: { xs: 'flex', md: 'none' },
@@ -111,11 +115,11 @@ function Navigation() {
                             fontFamily: 'roboto',
                             fontWeight: 700,
                             letterSpacing: '.1rem',
-                            color: 'black',
+                            color: 'white',
                             textDecoration: 'none',
                         }}
                     >
-                        Miguel A Rojas
+                        Miguel Rojas
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
@@ -132,9 +136,14 @@ function Navigation() {
                     </Box>
 
                     <Box sx={{ flexGrow: 0 }}>
-            
-                        <Avatar alt="Miguel Rojas" src="../Public/images/profile.png"/>
-
+                        {/* Future feature with settings for light mode and dark mode and other website settings. */}
+                        {/* <Tooltip title="Open settings"> */}
+                        {/* <IconButton 
+                            onClick={handleOpenUserMenu} 
+                            sx={{ p: 0 }}> */}
+                        <Avatar alt="Miguel Rojas" src="../Public/images/profile.png" />
+                        {/* </IconButton> */}
+                        {/* </Tooltip> */}
                         <Menu
                             sx={{ mt: '45px' }}
                             id="menu-appbar"

@@ -54,7 +54,12 @@ export default function ProjectCard() {
                     <Grid container rowSpacing={1} columnSpacing={2}>
                         {ProjectData.map((project) => (
                             <Grid key={project.id} xs={12} md={6}>
+
                                 <Card sx={{ maxWidth: 345 }}>
+                                    {/* Future functionality for adding a link to a project page with more details */}
+
+                                    {/* <CardActionArea>
+                                    <Link to={`/portfolio/${project.id}`} style={{ textDecoration: 'none' }}> */}
                                     <CardMedia
                                         sx={{ height: 140 }}
                                         image={project.picture}
@@ -68,6 +73,8 @@ export default function ProjectCard() {
                                             {project.description}
                                         </Typography>
                                     </CardContent>
+                                    {/* </Link> */}
+                                    {/* </CardActionArea> */}
                                     <CardActions>
                                         <Button size="small" href={`https://${project.githubUrl}`} target="_blank">GitHub</Button>
                                         <Button size="small" href={`https://${project.liveUrl}`} target="_blank">Live Application</Button>
