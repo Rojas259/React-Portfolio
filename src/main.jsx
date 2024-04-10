@@ -1,76 +1,34 @@
 
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
-
-
-// Styles
-import {  ThemeProvider } from '@mui/material/styles';
-
-
-// Fonts for Material Ui
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { ThemeProvider } from '@mui/material/styles';
 import '@fontsource/roboto/300.css';
 import '@fontsource/roboto/400.css';
 import '@fontsource/roboto/500.css';
 import '@fontsource/roboto/700.css';
-
-
 import './index.css';
-import {theme} from "./utils/theme"
+import { theme } from './utils/theme';
+import Root from './routes/root';
+import ErrorPage from './error-pages';
+import AboutMe from './components/AboutMe';
+import Resume from './components/Resume';
+import Contact from './components/Contact';
+import Portfolio from './components/Portfolio';
 
-// Main Routes
-import Root from './routes/root'
-import ErrorPage from "./error-pages";
-import AboutMe from "./components/AboutMe"
-import Resume from "./components/Resume"
-import Contact from "./components/Contact"
-import Portfolio from "./components/Portfolio"
+const App = () => (
+  <ThemeProvider theme={theme}>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Root />} />
+        <Route path="/about" element={<AboutMe />} />
+        <Route path="/resume" element={<Resume />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="*" element={<ErrorPage />} />
+      </Routes>
+    </Router>
+  </ThemeProvider>
+);
 
-
-// React Router
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "/",
-        element: <AboutMe />,
-      },
-      {
-        path: "/about",
-        element: <AboutMe />,
-      },
-      {
-        path: "/resume",
-        element: <Resume />,
-      },
-      {
-        path: "/contact",
-        element: <Contact />,
-      },
-      {
-        path: "/portfolio",
-        element: <Portfolio />,
-      },
-      {
-        path: "/portfolio",
-        element: <Portfolio />,
-      },
-    ]
-  },
-]);
-
-
-
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <ThemeProvider theme={theme}>
-      <RouterProvider router={router} />
-    </ThemeProvider>
-  </React.StrictMode>,
-)
+ReactDOM.render(<App />, document.getElementById('root'));

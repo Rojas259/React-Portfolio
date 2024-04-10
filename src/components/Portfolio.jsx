@@ -7,7 +7,7 @@ const ProjectData = [
         id: "Cocktail-Compass",
         title: "Cocktail Compass",
         description: "Hmtl, CSS, and two APIs are used to create a website that allows you to search for cocktails by name or ingredient. This project is an exercise in using APIs and dynamically creating elements on our webpage using JavaScript.",
-        picture:"../Public/projects/WelcomeToTheCocktailCompass.png",
+        picture: "../Public/projects/WelcomeToTheCocktailCompass.png",
         githubUrl: "github.com/sfmacdonald/Cocktail-Compass.git",
         liveUrl: "sfmacdonald.github.io/Cocktail-Compass/",
     },
