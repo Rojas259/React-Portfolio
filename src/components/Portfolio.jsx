@@ -1,13 +1,5 @@
-import { Container } from '@mui/material';
-import Grid from '@mui/material/Unstable_Grid2';
-import Card from '@mui/material/Card';
-import { Paper, Box } from "@mui/material";
-import CardActions from '@mui/material/CardActions';
-import CardContent from '@mui/material/CardContent';
-import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
-import Typography from '@mui/material/Typography';
 import React from 'react';
+import { Container, Paper, Box, Typography, Grid, Card, CardMedia, CardContent, CardActions, Button } from '@mui/material';
 
 
 const ProjectData = [
@@ -15,7 +7,7 @@ const ProjectData = [
         id: "Cocktail-Compass",
         title: "Cocktail Compass",
         description: "Hmtl, CSS, and two APIs are used to create a website that allows you to search for cocktails by name or ingredient. This project is an exercise in using APIs and dynamically creating elements on our webpage using JavaScript.",
-        pictures:"../Public/projects/WelcomeToTheCocktailCompass.png",
+        picture:"../Public/projects/WelcomeToTheCocktailCompass.png",
         githubUrl: "github.com/sfmacdonald/Cocktail-Compass.git",
         liveUrl: "sfmacdonald.github.io/Cocktail-Compass/",
     },
@@ -23,7 +15,7 @@ const ProjectData = [
         id: "Password-Generator",
         title: "Password Generator",
         description: "This project allows you to generate a random password based on the criteria you select. This project is an exercise in using JavaScript to create a random password generator.",
-        pictures: "../Public/projects/Password-Generator.png",
+        picture: "../Public/projects/Password-Generator.png",
         githubUrl: "github.com/Rojas259/Password-Generator.git",
         liveUrl: "rojas259.github.io/Password-Generator/",
     },
@@ -31,7 +23,7 @@ const ProjectData = [
         id: "Note-Taker",
         title: "Note Taker",
         description: "This project allows you to write, save, and delete notes.",
-        pictures: "../Public/projects/Note-Taker.png",
+        picture: "../Public/projects/Note-Taker.png",
         githubUrl: "github.com/Rojas259/Note-Taker.git",
         liveUrl: "note-taker-8-c2b59462ef5a.herokuapp.com",
     },
@@ -39,14 +31,14 @@ const ProjectData = [
         id: "Readme-Generator",
         title: "Readme Generator",
         description: "This project allows you to generate a readme file for your project.",
-        pictures: "../Public/projects/Readme-Generator.png",
+        picture: "../Public/projects/Readme-Generator.png",
         githubUrl: "github.com/Rojas259/Professional-README-Generator.git",
     },
     {
         id: "WorkDay-Schedule",
         title: "Work Day Schedule",
         description: "This project allows you to record your schedule for your work day, it saves the events to your localstorage, so you can leave and come back. This project is an exercise in using the Third Party API DayJS, and implementing jQuery and Bootstrap",
-        pictures: "../Public/projects/WorkDaySchedule.png",
+        picture: "../Public/projects/WorkDaySchedule.png",
         githubUrl: "github.com/Rojas259/Daily-Work-Schedular.git",
         liveUrl: "rojas259.github.io/Daily-Work-Schedular/",
     },
@@ -64,7 +56,7 @@ export default function ProjectCard() {
                                 <Card sx={{ maxWidth: 345 }}>
                                     <CardMedia
                                         sx={{ height: 140 }}
-                                        image={project.pictures}
+                                        image={project.picture}
                                         title={project.title}
                                     />
                                     <CardContent>
