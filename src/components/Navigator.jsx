@@ -141,7 +141,7 @@ function Navigation() {
                         {/* <IconButton 
                             onClick={handleOpenUserMenu} 
                             sx={{ p: 0 }}> */}
-                        <Avatar alt="Miguel Rojas" src="../Public/images/profile.png" />
+                        <Avatar alt="Miguel Rojas" src="../public/images/profile.png" />
                         {/* </IconButton> */}
                         {/* </Tooltip> */}
                         <Menu
