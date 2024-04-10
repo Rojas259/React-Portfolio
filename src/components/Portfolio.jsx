@@ -13,7 +13,7 @@ const ProjectData = [
         id: "Cocktail-Compass",
         title: "Cocktail Compass",
         description: "Hmtl, CSS, and two APIs are used to create a website that allows you to search for cocktails by name or ingredient. This project is an exercise in using APIs and dynamically creating elements on our webpage using JavaScript.",
-        pictures: ("../Public/projects/WelcomeToTheCocktailCompass.png"),
+        pictures:"../Public/projects/WelcomeToTheCocktailCompass.png",
         githubUrl: "github.com/sfmacdonald/Cocktail-Compass.git",
         liveUrl: "sfmacdonald.github.io/Cocktail-Compass/",
     },
@@ -59,12 +59,7 @@ export default function ProjectCard() {
                     <Grid container rowSpacing={1} columnSpacing={2}>
                         {ProjectData.map((project) => (
                             <Grid key={project.id} xs={12} md={6}>
-
                                 <Card sx={{ maxWidth: 345 }}>
-                                    {/* Future functionality for adding a link to a project page with more details */}
-
-                                    {/* <CardActionArea>
-                                    <Link to={`/portfolio/${project.id}`} style={{ textDecoration: 'none' }}> */}
                                     <CardMedia
                                         sx={{ height: 140 }}
                                         image={project.pictures}
@@ -78,8 +73,6 @@ export default function ProjectCard() {
                                             {project.description}
                                         </Typography>
                                     </CardContent>
-                                    {/* </Link> */}
-                                    {/* </CardActionArea> */}
                                     <CardActions>
                                         <Button size="small" href={`https://${project.githubUrl}`} target="_blank">GitHub</Button>
                                         <Button size="small" href={`https://${project.liveUrl}`} target="_blank">Live Application</Button>
