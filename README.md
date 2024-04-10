@@ -1,6 +1,7 @@
 # React-Portfolio
  ## Description
 A portfolio that was made to show my work that I am proud of and it can be viewed and looked at as an interactive gallery. Also can also download resume, create an account, and view over view of myself. 
+I will being also updating as well.
   ## Table of Contents
   - [Installation](#installation)
   - [License](#license)
