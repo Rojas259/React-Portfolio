@@ -14,6 +14,7 @@ I will being also updating as well.
   
   ## Tests
   Create during ASU Bootcamp for coding 
+  [Link to the React Site](https://deploy-preview-60--miguelrojasportfolio.netlify.app)
   
   ## Questions
   find me on GitHub: [Rojas259](https://github.com/Rojas259)
